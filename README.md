@@ -17,7 +17,7 @@ from imageai.Detection import ObjectDetection
 # Step 4_Create an instance of the class ObjectDetection
 detector = ObjectDetection()
 # Step 5_Specify the path from our input image (name.format), output image, and model
-model_path = "./models/yolo-tiny.h5"
+model_path = "./model/yolo-tiny.h5"
 input_path = "./input/test45.jpg"
 output_path = "./output/newimage.jpg"
 # Step 6_ Load our model
@@ -50,7 +50,7 @@ from imageai.Detection import ObjectDetection
 
 detector = ObjectDetection()
 
-model_path = "./models/yolo-tiny.h5"
+model_path = "./model/yolo-tiny.h5"
 input_path = "./input/test45.jpg"
 output_path = "./output/newimage.jpg"
 
